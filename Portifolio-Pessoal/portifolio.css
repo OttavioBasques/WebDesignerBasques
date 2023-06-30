@@ -1,0 +1,119 @@
+/*Estilos de navegação*/
+
+/*Rolagem suave da tela*/
+html {
+    scroll-behavior: smooth;
+}
+
+:target {
+    scroll-margin-top: 4em;
+}
+
+/*Fonte e outros estilos gerais*/
+body {
+    font-family: 'Rajdhani', sans-serif;
+}
+
+/*Cabeçalho*/
+header {
+    padding-left: 10px;
+    font-size: 1em;
+}
+
+/*Barra de navegação*/
+nav {
+    background-color: #f2f2f2;
+    padding: 10px;
+    font-size: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: darkslategray;
+    text-decoration: none;
+    padding: 5px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: rgb(170, 154, 125);
+}
+
+/*Conteúdo principal*/
+/*Início*/
+#Inicio {
+    padding: 1px 10px;
+    font-size: 1em;
+}
+
+/*Projetos*/
+#Projetos {
+    padding: 1px 10px;
+    font-size: 1em;
+}
+
+#ImagemCentro {
+    text-align: center;
+}
+
+/*Sobre*/
+#Sobre {
+    padding: 1px 10px;
+    font-size: 1em;
+}
+img {
+    border-radius: 8px;
+}
+
+/*Contato*/
+#Contato {
+    padding: 1px 10px;
+    font-size: 1em;
+}
+
+
+/*Rodapé*/
+footer {
+    background-color: #f2f2f2;
+    padding: 1px 10px;
+    text-align: center;
+    font-size: 1em;
+}
+
+footer p {
+    font-style: italic;
+}
+
+footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+footer ul li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+footer ul li a {
+    color: darkslategrey;
+    text-decoration: none;
+    padding: 5px;
+    transition: color 0.3s ease;
+}
+
+footer ul li a:hover {
+    color: rgb(170, 154, 125);
+}

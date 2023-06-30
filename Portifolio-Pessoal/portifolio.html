@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio de Ottávio Francisco Basques</title>
+    <link rel="stylesheet" href="portifolio.css">
+</head>
+
+<body>
+    <header>
+        <h1>Portifólio de Ottávio</h1>
+        <p>Este é o meu portifólio pessoal.</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#Inicio">Início</a></li>
+            <li><a href="#Projetos">Meus projetos</a></li>
+            <li><a href="#Sobre">Sobre</a></li>
+            <li><a href="#Contato">Contato</a></li>
+        </ul>
+    </nav>
+    <main>
+        <hr>
+        <section id="Inicio">
+            <h2>Início</h2>
+            <p>Meu nome é Ottávio Francisco Basques, sou Web Designer com certificado de qualificação profissional do
+                SENAI e também estou cursando Ciência da Computação como primeira graduação na Universidade Paulista.
+                Tenho também certa experiência com criação de aplicativos móveis utilizando o "MIT App Inventor", e
+                também robótica com o conjunto LEGO EV3. Também possuo bom interesse em desenvolvimento de jogos
+                eletrônicos.</p>
+        </section>
+        <hr>
+        <section id="Projetos">
+            <h2>Meus projetos</h2>
+            <p>Aqui estão alguns dos meus projetos e outras participações.</p>
+            <article>
+                <h3>Website sobre Sustentabilidade</h3>
+                <p>Este website foi criado semanas após o início do curso Ciência da Computação como parte de uma
+                    Atividade Prática Supervisionada sobre um tema específico da Sustentabilidade.</p>
+                <div id="ImagemCentro">
+                    <img src="Sustentabilidade.png" alt="Website sobre Sustentabilidade" width="604" height="409">
+                    <br>
+                    <a href="https://drive.google.com/drive/folders/1nlQcTyntcjMkl7CXSkHdZ96ZIakoz4XO?usp=sharing"
+                        target="_blank">Saiba mais aqui</a>
+                </div>
+            </article>
+            <article>
+                <h3>Verificação JavaScript</h3>
+                <p>Este é um website simples com código JavaScript para realizar a verificação de entradas de valores.
+                </p>
+                <div id="ImagemCentro">
+                    <img src="VerifJS.png" alt="Website de verifição JavaScript" height="450" width="437">
+                    <br>
+                    <a href="https://classroom.google.com/c/NTUzMDM1NTg5MTAz/a/NjE1MDE3NDYwMzc5/details"
+                        target="_blank">Saiba mais aqui.</a>
+                </div>
+            </article>
+        </section>
+        <hr>
+        <section id="Sobre">
+            <h2>Sobre mim</h2>
+            <div id="ImagemCentro">
+                <img src="FotoOttavio.jpg" alt="Foto de Ottávio" height="426" width="320">
+            </div>
+            <p>
+                Sou formado no curso de Web Designer Front-End na escola SENAI "Luis Massa" de Botucatu (SP), além de
+                estar cursando minha primeira graduação em Ciência da Computação.
+                Entre minhas principais habilidades, estão:
+            <ul>
+                <li>Inglês de nível avançado;</li>
+                <li>Conhecimento de HTML, CSS e JavaScript; </li>
+                <li>Conhecimento de progração em blocos utilizando o MIT App Inventor;</li>
+                <li>Criatividade;</li>
+                <li>Familiaridade com o kit de robótica LEGO EV3;</li>
+            </ul>
+            </p>
+        </section>
+        <hr>
+        <section id="Contato">
+            <h2>Contato</h2>
+            <p>Entre em contato:</p>
+            <form id="formContato" action="agradecimento.html" onsubmit="return validarForm()">
+                <label for="Nome">Nome:</label>
+                <input type="text" name="Nome" id="Nome">
+                <label for="Email">E-mail:</label>
+                <input type="email" name="Email" id="Email">
+                <br>
+                <br>
+                <label for="Msg">Sua mensagem:</label>
+                <textarea name="Msg" id="Msg"></textarea>
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+        <hr>
+    </main>
+    <footer>
+        <p>&copy; 2023 - Ottávio Francisco Basques. Todos direitos reservados.</p>
+        <ul>
+            <li><a href="https://www.facebook.com/ottaviofrancisco.basques" target="_blank">Facebook</a></li>
+            <li><a href="https://www.linkedin.com/in/ottávio-francisco-basques-a475a0281" target="_blank">LinkedIn</a>
+            </li>
+            <li><a href="mailto:otaviobasques@gmail.com">E-mail</a></li>
+        </ul>
+    </footer>
+    <script src="portifolio.js"></script>
+</body>
+
+</html>
